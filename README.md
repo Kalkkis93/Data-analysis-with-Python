@@ -11,4 +11,4 @@ The very first file is data_generator.py. It includes a code that creates two ar
 
 When the arrays.json file is created and the database settings are okay, then you can run the code in data_analysis.py. This code reads the file arrays.json, computes the Euclidean distance from (0, 0) for every (x, y) in arrays.json file and completes k means algorithm with k = 5. After that, the code takes a connection to PostgreSQL, computes the sizes and average distances of every class and saves these infos into database. Finally it makes a plot of the distances and uses different colors by the classes.
 
-The last file, data_save.py, reads the data from database (if it exists there) and makes a csv file of it.
+The last file, data_save.py, reads the data from database (if it exists there) and makes a csv file of it. This file goes also into the data folder with name result.csv.
