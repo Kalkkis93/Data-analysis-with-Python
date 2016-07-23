@@ -1,5 +1,6 @@
 #!/usr/bin/python2.7
 
+import sys
 import numpy
 import json
 import pandas
@@ -45,6 +46,11 @@ print "Done!"
 
 # Use the k means algorithm to divide the data into 5 clusters.
 print "Using the k means algorithm..."
+k = 0
+try:
+	k = int(sys.argv[1])
+except:
+	k = 5
 k_means = cluster.KMeans(n_clusters = 5)
 k_means.fit(data)
 k_means.labels_
