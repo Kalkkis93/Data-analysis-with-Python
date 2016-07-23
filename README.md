@@ -13,10 +13,10 @@ When the arrays.json file is created and the database settings are okay, then yo
 
 The last file, data_save.py, reads the data from database (if it exists there) and makes a csv file of it. This file goes also into the data folder with name result.csv.
 
-There are the example files in the data and pic folders. They are results of the analysis in which the length of x and y is 10.000 and k = 5. That kind of analysis can be done with the following command:
+There are the example files in the data and pic folders. They are results of the analysis in which the length of x and y is 10 000 and k = 5. That kind of analysis can be done with the following command:
 
 $ python data_generator.py 10000; python data_analysis.py 5; python data_save.py
 
-Because 10.000 and 5 are the defaults, this command does also the same kind of analysis:
+Because 10 000 and 5 are the defaults, this command does also the same kind of analysis:
 
 $ python data_generator.py; python data_analysis.py; python data_save.py
