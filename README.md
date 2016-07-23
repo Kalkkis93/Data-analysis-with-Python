@@ -1,6 +1,6 @@
 # Data-analysis-with-Python
 
-This is a little data analysis project with Python and PostgreSQL. If you want to test the codes, please make a new database in PostegreSQL with the following infos:
+This is a little data analysis project with Python and PostgreSQL. If you want to test the codes, please make a new database in PostegreSQL with the following instructions:
 - Username: myrole
 - Password: myrole
 - Host: localhost
